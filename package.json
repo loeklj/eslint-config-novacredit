@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-novacredit",
+  "version": "1.0.0",
+  "description": "Nova Credit's configuration for style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loeklj/eslint-config-novacredit.git"
+  },
+  "keywords": [
+    "ESLint",
+    "Nova"
+  ],
+  "author": "Nova Credit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loeklj/eslint-config-novacredit/issues"
+  },
+  "homepage": "https://github.com/loeklj/eslint-config-novacredit#readme",
+	"peerDependencies": {
+    "eslint": ">= 3",
+		"eslint-config-airbnb": ">= 14",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-jsx-a11y": ">= 4",
+    "eslint-plugin-react": ">= 6"
+	}
+}
